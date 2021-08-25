@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>News pages</title>
+    <br>
+    <h><div id="festa">Hello world, this is my frist project</h></div>
+</head>
+<body>
+    
+    
+<ol> <div class="saliff"><div id="oggettoMobile">
+<p>lista dei oggetti mobili</p>
+<li>mango</li>
+<li>bannana</li>
+<li>formaggio</li>
+<li>limone</li>
+<li>Pesto</li>
+
+</ol></div>
+</div>
+<br>
+<br>
+
+<p>Tipo di ingresso: il testo
+input type="text"> definisce un campo di input di una riga per immissione di testo
+</p>
+<br>
+<form>
+    First name:<br>
+    <input type="text" name="firstname"><br>
+    Last name:<br>
+    <input type="text" name="lastname">
+  </form>
+
+<br>
+Tipo di ingresso: la password
+input type="password"> definisce un campo password:
+  <br>
+  <form>
+    User name:<br>
+    <input type="text" name="username"><br>
+    User password:<br>
+    <input type="password" name="psw">
+  </form>
+  <br>
+  Tipo di ingresso: presentare
+input type="submit"> definisce un pulsante per l'invio di input forma ad una forma-handler.
+
+La forma-gestore è tipicamente una pagina del server con uno script per l'elaborazione di dati di input.
+
+La forma-gestore è specificato nel attributo di azione del form:
+<br>
+<form action="action_page.php">
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey"><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <br>
+  Tipo di ingresso: radio
+  input type="radio"> definisce un radio pulsante.
+  
+  Radio pulsanti permettono all'utente di selezionare 
+  solo uno di un numero limitato di scelte:
+<br>
+<form>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other
+  </form>
+<br>
+Tipo di ingresso: checkbox
+input type="checkbox"> definisce una checkbox .
+
+Checkboxes consentire a un utente selezionare
+ zero o più opzioni di un numero limitato di scelte.
+<br>
+<form>
+    <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+    <input type="checkbox" name="vehicle2" value="Car"> I have a car
+  </form>
+<br>
+Input Tipo: number
+Il input type="number"> viene utilizzato per i campi di input che dovrebbe contenere un valore numerico.
+
+È possibile impostare restrizioni sui numeri.
+
+A seconda del supporto del browser, le restrizioni possono applicare al campo di inserimento
+<br>
+<form>
+    Quantity (between 1 and 5):
+    <input type="number" name="quantity" min="1" max="5">
+  </form>
+  <br>
+  Potrete saperne di più su input restrizioni nel prossimo capitolo.
+<br>
+  <form>
+    Quantity:
+    <input type="number" name="points" min="0" max="100" step="10" value="30">
+  </form>
+  <br>
+  Input Tipo: date
+  Il input type="date"> è usato per i campi di input che dovrebbe contenere una data.
+  
+  A seconda del supporto del browser, un selettore di data può apparire nel campo di immissione.
+  <br>
+  <form>
+    Birthday:
+    <input type="date" name="bday">
+  </form>
+  <br>
+  È possibile aggiungere restrizioni al input :
+<br>
+  <form>
+    Enter a date before 1980-01-01:
+    <input type="date" name="bday" max="1979-12-31"><br>
+    Enter a date after 2000-01-01:
+    <input type="date" name="bday" min="2000-01-02"><br>
+  </form>
+  <br>
+
+  <br>
+<p> Input Tipo: colore
+    Il input type="color"> è usato per i campi di input che dovrebbe contenere un colore.
+    
+    A seconda del supporto del browser, un selettore di colori può apparire nel campo di immissione.
+Esempio</p>
+  <form>
+    Select your favorite color:
+    <input type="color" name="favcolor">
+  </form>
+<br>
+
+<br>
+<p>Input Tipo: gamma
+    Il input type="range"> viene utilizzato per i campi di input che dovrebbe contenere un valore all'interno di un intervallo.
+    
+    A seconda del supporto del browser, il campo di input può essere 
+    visualizzato come un dispositivo di scorrimento. 
+Esempio</p>
+<form>
+    <input type="range" name="points" min="0" max="10">
+  </form>
+  <br>
+
+  <br>
+  <p>
+    È possibile utilizzare i following attributi per specificare restrizioni: min, max, step, il valore.
+
+    Input Tipo: month
+    Il input type="month"> permette all'utente di selezionare un mese e anno.
+    
+    A seconda del supporto del browser, 
+    un selettore di data può apparire nel campo di immissione.
+Esempio.
+  </p>
+  <form>
+    Birthday (month and year):
+    <input type="month" name="bdaymonth">
+  </form>
+<br>
+
+<br>
+<p>Input Tipo: week
+    Il input type="week"> permette all'utente di selezionare una settimana e anno.
+    
+    A seconda del supporto del browser, un selettore di data può apparire nel campo di immissione.
+
+    Esempio</p>
+    <form>
+        Select a week:
+        <input type="week" name="week_year">
+      </form>
+      <br>
+      <p>Input Tipo: time
+        Il input type="time"> permette all'utente di selezionare una volta (no time zone) .
+        
+        A seconda del supporto del browser, una raccoglitrice di tempo può presentarsi nel campo di immissione.
+        
+        Esempio</p>
+      <form>
+        Select a time:
+        <input type="time" name="usr_time">
+      </form>
+      <br>
+      <p>Tipo di ingresso: datetime-local
+        Il input type="datetime-local"> consente all'utente di selezionare una data e ora (no time zone) .
+        
+        A seconda del supporto del browser, un selettore di data può apparire nel campo di immissione.
+        
+        Esempio</p>
+      <form>
+        Birthday (date and time):
+        <input type="datetime" name="bdaytime">
+      </form>
+<br>
+<p>Tipo di ingresso: e-mail
+    Il input type="email" è usato per i campi di input che dovrebbe contenere un indirizzo email.
+    
+    A seconda del supporto del browser, l'indirizzo di posta elettronica può essere convalidato automaticamente quando viene sottoposto.
+    
+    Alcuni smartphone riconoscono il tipo di e-mail, e aggiunge ".com" alla tastiera in base all'ingresso e-mail.
+    
+    Esempio</p>
+    <br>
+    <form>
+        E-mail:
+        <input type="email" name="email">
+      </form>
+      <br>
+      <p>Tipo di ingresso: tel
+        Il  input type="tel"> è usato per i campi di input che dovrebbe contenere un numero di telefono.
+        
+        Il tipo tel è attualmente supportata solo in Safari 8.
+    Esempio</p>
+    <br>
+    <form>
+        Telephone:
+        <input type="tel" name="usrtel">
+      </form>
+      <br>
+      <p>Tipo di ingresso: Ricerca
+        Il input type="search"> è usato per i campi di 
+        ricerca (a search field behaves like a regular text field) .
+    Esempio</p>
+    <br>
+      <form>
+        Search Google:
+        <input type="search" name="googlesearch">
+      </form>
+<br>
+<p>ipo di ingresso: url Il <br>
+    input type="url"> 
+ è usato per i campi di input che dovrebbe contenere un indirizzo URL.
+    
+    A seconda del supporto del browser, il campo URL può essere convalidato automaticamente quando viene sottoposto.
+    
+    Alcuni smartphone riconoscono il tipo di URL, e aggiunge ".com" alla tastiera in
+     modo che corrisponda all'ingresso URL
+     Esempio.</p>
+    <br>
+    <form>
+        Add your homepage:
+        <input type="url" name="homepage">
+      </form>
+
+
+
+<script src="index.js"></script>
+
+
+</body>
+</html>
