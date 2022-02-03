@@ -49,25 +49,4 @@ return audience;
 }  
 console.log(device(3,20));*/
 
-const multiplox =(sali, limit1) => {
-arrai1 =[];
-nume1 =0;
-while(arrai1.length <= limit1) {
-    if(nume1 % sali ==0) {
-
-        arrai1.push(nume1);
-    }
-    nume1++;
-}
-return arrai1;
-}
-console.log(multiplox(2, 100 ) + ' multiplo di 2, sul 100 ');
-
-function getRandomInt(max) {
-
-    return Math.floor(Math.random()* max);
-
-}
-console.log(getRandomInt(8));
-
 

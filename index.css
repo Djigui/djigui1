@@ -1,5 +1,5 @@
 body{
-    background:rgb(114, 102, 126);
+    background:rgb(255, 255, 255);
 }
 .saliff{
     color: rgb(150, 236, 63);
@@ -10,4 +10,7 @@ body{
 }
 .sss{
     color: rgb(185, 18, 18);
+}
+input[type="url"]{
+    color: rgb(170, 26, 54);
 }

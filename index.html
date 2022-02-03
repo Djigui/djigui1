@@ -127,16 +127,7 @@ A seconda del supporto del browser, le restrizioni possono applicare al campo di
   <br>
 
   <br>
-<p> Input Tipo: colore
-    Il input type="color"> è usato per i campi di input che dovrebbe contenere un colore.
-    
-    A seconda del supporto del browser, un selettore di colori può apparire nel campo di immissione.
-Esempio</p>
-  <form>
-    Select your favorite color:
-    <input type="color" name="favcolor">
-  </form>
-<br>
+
 
 <br>
 <p>Input Tipo: gamma
@@ -216,7 +207,7 @@ Esempio.
       </form>
       <br>
       <p>Tipo di ingresso: tel
-        Il  input type="tel"> è usato per i campi di input che dovrebbe contenere un numero di telefono.
+        input è usato per i campi di input che dovrebbe contenere un numero di telefono.
         
         Il tipo tel è attualmente supportata solo in Safari 8.
     Esempio</p>
@@ -226,15 +217,7 @@ Esempio.
         <input type="tel" name="usrtel">
       </form>
       <br>
-      <p>Tipo di ingresso: Ricerca
-        Il input type="search"> è usato per i campi di 
-        ricerca (a search field behaves like a regular text field) .
-    Esempio</p>
-    <br>
-      <form>
-        Search Google:
-        <input type="search" name="googlesearch">
-      </form>
+      
 <br>
 <p>ipo di ingresso: url Il <br>
     input type="url"> 
@@ -253,8 +236,35 @@ Esempio.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+<form method="POST" action="esempio.php">
+  <br>
+<label for="name">nome</label>
+<input type="text" id="nome" name="nome" placeholder="insersci nome">
+<br>
+<label for="name">Cognome</label>
+<input type="text" id="cognome" name="cognome" placeholder="insersci cognome">
+<br>
+<label for="name">username</label>
+<input type="text" id="username" name="username" placeholder="insersci username">
+<br>
+<label for="name">password</label>
+<input type="password" id="password" name="password" placeholder="insersci password">
+<input type="submit" value="invia dati">
+
+</form>
+
 <script src="index.js"></script>
-
-
 </body>
 </html>
